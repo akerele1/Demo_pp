@@ -25,3 +25,12 @@ def test_contact_us_visible(page: Page):
         "Looking forward to hearing from you")
     page.get_by_role("button", name="Submit").click()
 
+def test_services(page: Page):
+    home = Homepage(page)
+    home.load()
+    services = page.locator("#menu-item-1399").get_by_role("link", name="Services")
+    expect(services).to_be_visible()
+    services.click()
+    
+
+
