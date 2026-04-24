@@ -8,4 +8,5 @@ def test_blossom_abode(page: Page):
     ba.load()
     print (ba.get_title())
     ba.open_services()
-    page.get_by_role("link", name="What we offer", exact=True).click()
+    page.get_by_role
+    ("link", name="What we offer", exact=True).click()
