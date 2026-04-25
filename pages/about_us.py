@@ -12,7 +12,7 @@ class aboutUs():
 
     def open_about_us_page(self):
         about_us = self.page.get_by_role("link", name="About").click()
-        
+        expect
 
     def get_aboutus_title(self):
         about_title = self.page.title()
