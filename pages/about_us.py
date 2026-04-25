@@ -21,4 +21,4 @@ class aboutUs():
     
     def org_abt(self):
         org_val = self.page.locator("#expand-36120d0").get_by_role("link", name="Organisational values")
-        expect(or)
+        expect(org_val).
