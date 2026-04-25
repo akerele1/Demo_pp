@@ -22,4 +22,4 @@ class aboutUs():
     def org_abt(self):
         org_val = self.page.locator("#expand-36120d0").get_by_role("link", name="Organisational values")
         expect(org_val).to_be_visible()
-        org_val
+        org_val.click()
