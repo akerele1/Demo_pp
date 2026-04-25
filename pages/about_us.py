@@ -7,7 +7,7 @@ class aboutUs():
         self = self.page
         self.url = "https://theprosperingplace.co.uk/"
 
-    def (self):
+    def ope(self):
         self.page.goto(self.url)
 
     def open_about_us_page(self):
