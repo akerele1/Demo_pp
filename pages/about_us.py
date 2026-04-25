@@ -20,4 +20,4 @@ class aboutUs():
         return(about_title)
     
     def org_abt(page: Page)
-        org_val = self.page.locator("href="#expand-36120d0"")
+        org_val = self.page.locator("#expand-36120d0"")
