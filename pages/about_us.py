@@ -8,4 +8,4 @@ class aboutUs():
         self.url = "https://theprosperingplace.co.uk/"
 
     def open_url (self):
-        self.page.goto(sel)
+        self.page.goto(sellf)
