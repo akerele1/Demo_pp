@@ -10,7 +10,7 @@ class aboutUs():
     def open_url (self):
         self.page.goto(self.url)
 
-    def get_about
+    def get_aboutus_title(self)
 
     def open_about_us_page(self):
         about
