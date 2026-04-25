@@ -12,7 +12,7 @@ class aboutUs():
 
     def get_aboutus_title(self):
         about_title = self.page.title()
-        print(about_title)
+        retunr (about_title)
 
     def open_about_us_page(self):
         about
