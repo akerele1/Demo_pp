@@ -11,7 +11,7 @@ class aboutUs():
         self.page.goto(self.url)
 
     def get_aboutus_title(self):
-        ab
+        about_title = 
         print(self.get.title)
 
     def open_about_us_page(self):
