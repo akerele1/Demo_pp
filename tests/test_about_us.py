@@ -7,5 +7,5 @@ def test_about_us(page: Page):
     about.open_url()
     about.open_about_us_page()
     print(about.get_aboutus_title())
-    
+    about.org_abt
 
