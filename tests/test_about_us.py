@@ -8,4 +8,4 @@ def test_about_us(page: Page):
 
 def test_go_to_about_us(page: Page):
     about = aboutUs(page)       
-    about.open_about_us_page
+    about.open_about_us_page()
