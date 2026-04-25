@@ -1,4 +1,4 @@
 import pytest
 from playwright.sync_api import Page, expect
 
-class aboutUs(self, page)
+class aboutUs(self, page, Page)
