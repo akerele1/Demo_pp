@@ -7,5 +7,4 @@ def test_about_us(page: Page):
     about.open_url()
 
 def test_go_to_about_us(page: Page)
-    about_us = aboutUs
-    
+    open_about_us = aboutUs
