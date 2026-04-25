@@ -19,4 +19,5 @@ class aboutUs():
         about_title = self.page.title()
         return(about_title)
     
-    def org_abt(page )
+    def org_abt(page: Page)
+        
