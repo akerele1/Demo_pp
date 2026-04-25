@@ -1,3 +1,3 @@
 import pytest
 from pages.about_us import aboutUs
-from playwright
+from playwright.sync_api
