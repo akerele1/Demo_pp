@@ -6,7 +6,6 @@ def test_about_us(page: Page):
     about = aboutUs(page)
     about.open_url()
 
-def test_go_to_about_us(page: Page):
-    about = aboutUs(page)       
+def test_go_to_about_us(page: Page):    
     about.open_about_us_page()
     print(about.get_aboutus_title())
