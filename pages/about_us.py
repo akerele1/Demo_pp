@@ -12,3 +12,7 @@ class aboutUs():
 
     def open_about_us_page(self):
         about
+
+    def get_aboutus_title(self):
+        about_title = self.page.title()
+        return(about_title)
