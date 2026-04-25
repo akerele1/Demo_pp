@@ -11,7 +11,7 @@ class aboutUs():
         self.page.goto(self.url)
 
     def open_about_us_page(self):
-        about_us = self.page.locator("get_by_role("link", name="About")
+        about_us = self.page.locator("'#menu-item-225')get_by_role("link", name="About")
         expect(about_us).to.be.visible()
         about_us.click()
 
