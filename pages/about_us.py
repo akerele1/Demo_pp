@@ -7,4 +7,4 @@ class aboutUs():
         self = self.page
         self.page.goto = "https://theprosperingplace.co.uk/"
 
-    def 
+    def open
