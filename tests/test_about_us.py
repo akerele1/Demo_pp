@@ -6,3 +6,4 @@ def test_about_us(page: Page):
     about =aboutUs(page)
     #open url
     about.open_url()
+    
