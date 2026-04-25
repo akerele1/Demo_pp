@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Install Dependencies') {
             steps {
-                bat 'python -m pip install -r requirements.txt'
-                bat 'playwright install chromium'
+                bat 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -m pip install -r requirements.txt'
+                bat 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -m playwright install chromium'
             }
         }
         stage('Run Tests') {
             steps {
-                bat 'python -m pytest tests/ -v --html=report.html'
+                bat 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -m pytest tests/ -v --html=report.html'
             }
         }
     }
