@@ -5,6 +5,6 @@ class aboutUs():
 
     def __init__(self, page; Page):
         self = self.page
-        self.page.goto = "https://theprosperingplace.co.uk/"
+        self.url = "https://theprosperingplace.co.uk/"
 
     def open_url ()
