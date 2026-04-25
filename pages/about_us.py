@@ -19,5 +19,5 @@ class aboutUs():
         about_title = self.page.title()
         return(about_title)
     
-    def org_abt(page: Page):
+    def org_abt(self):
         org_val = self.page.locator("#expand-36120d0").get_by_role("link", name="Organisational values")
