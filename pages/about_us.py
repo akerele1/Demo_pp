@@ -11,7 +11,7 @@ class aboutUs():
         self.page.goto(self.url)
 
     def open_about_us_page(self):
-        about_us = self.page.get_by("link", name="About").click()
+        about_us = self.page.get_by_test_id("link", name="About").click()
 
     def get_aboutus_title(self):
         about_title = self.page.title()
