@@ -3,4 +3,4 @@ from playwright.sync_api import Page, expect
 
 class aboutUs():
 
-    def __init
+    def __init__()
