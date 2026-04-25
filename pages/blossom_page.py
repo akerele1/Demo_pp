@@ -2,10 +2,10 @@ import pytest
 from playwright.sync_api import Page, expect
 
 class blossomPage:
-    
+
     def __init__(self, page: Page):
         self.page = page
-        self.url = 'https://theprosperingplace.co.uk/product/blossom/'
+        self.url = 'https://theprosperingplace.co.uk'
 
     def load(self):
         self.page.goto(self.url)
