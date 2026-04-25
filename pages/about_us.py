@@ -12,4 +12,3 @@ class aboutUs():
 
     def open_about_us_page(self):
         
-    
