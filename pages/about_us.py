@@ -6,3 +6,5 @@ class aboutUs():
     def __init__(self, page; Page):
         self = self.page
         self.page.goto = "https://theprosperingplace.co.uk/"
+
+    
