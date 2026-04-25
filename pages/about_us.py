@@ -4,7 +4,7 @@ from playwright.sync_api import Page, expect
 class aboutUs():
 
     def __init__(self, page: Page):
-        self = page
+        self.page = page
         self.url = "https://theprosperingplace.co.uk/"
 
     def open_url(self):
