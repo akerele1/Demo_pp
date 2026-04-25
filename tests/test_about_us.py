@@ -4,4 +4,4 @@ from playwright.sync_api import Page
 
 def test_about_us(page: Page):
     about =aboutUs(page)
-    
+    ~open 
