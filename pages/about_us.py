@@ -18,3 +18,5 @@ class aboutUs():
     def get_aboutus_title(self):
         about_title = self.page.title()
         return(about_title)
+    
+    
