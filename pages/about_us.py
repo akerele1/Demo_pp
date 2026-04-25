@@ -20,4 +20,4 @@ class aboutUs():
         return(about_title)
     
     def org_abt(page: Page)
-        org_val = 
+        org_val = self
