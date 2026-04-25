@@ -11,4 +11,4 @@ class aboutUs():
         self.page.goto(self.url)
 
     def open_about_us_page(self):
-        self.page.goto
+        
