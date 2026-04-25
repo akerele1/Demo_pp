@@ -8,7 +8,7 @@ class aboutUs():
         self.url = "https://theprosperingplace.co.uk/"
 
     def load(self):
-        self.page.goto(self.url):
+        self.page.goto(self.url)
 
     def open_about_us_page(self):
         about_us = self.page.locator("menu-item-225").get_by_role("link", name="About")
